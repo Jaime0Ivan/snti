@@ -8,7 +8,9 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- CSS -->
-    @vite(['resources/css/menuv.css', 'resources/js/menuv.js'])
+    <link rel="stylesheet" href="{{ asset('css/menuv.css') }}">
+    <script src="{{ asset('js/menuv.js') }}"></script>
+    {{-- @vite(['resources/css/menuv.css', 'resources/js/menuv.js']) --}}
     <link rel="stylesheet" href="{{ asset('build/assets/app-db0c0d48.css') }}">
     <!-- Scripts -->
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
